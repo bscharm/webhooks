@@ -11,6 +11,7 @@ $ node server.js
 ## Options
 `--port` to set the listening port
 
+## Miscellaneous
 * Navigating to the root in your browser will display the log of webhooks.
 * POSTing to root will add the payload to the webhooks file.
 * Hitting `http://localhost:5050/reset` will empty the file used to store payloads (webhooks.json)
